@@ -40,6 +40,8 @@
         const countItem = getCountItemTwo(true);
 
         updatePriceTwo(countItem);
+
+        getTotal();
         // console.log(countItem);
     })
 
@@ -48,6 +50,8 @@
         const countItem = getCountItemTwo(false);
 
         updatePriceTwo(countItem);
+
+        getTotal();
         // console.log(countItem);
     })
 

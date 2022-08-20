@@ -37,13 +37,18 @@
     document.getElementById('increaseItemOne').addEventListener('click', function(){
         const countItemOne = getCountItemOne(true);
         updatePriceOne(countItemOne);
+
+        getTotal();
         // console.log(countItemOne);
     })
 
 
     document.getElementById('decreaseItemOne').addEventListener('click', function(){
         const countItemOne = getCountItemOne(false);
+
         updatePriceOne(countItemOne);
+
+        getTotal();
         // console.log(countItemOne);
     })
 

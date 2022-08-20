@@ -31,7 +31,7 @@
                                     <button id="increaseItemOne"><i class="fa-solid fa-plus"></i></button>
                                 </p>
                             </div>
-                            <p class="fw-bold">$<span id="totalItemPriceOne" >1000</span></p>
+                            <p class="fw-bold">$<span id="totalItemPriceOne" >100</span></p>
                             <p class="faw" style="cursor: pointer;"><i class="fa-solid fa-xmark text-danger fs-2"></i></p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                                     <button id="increaseItemTwo"><i class="fa-solid fa-plus"></i></button>
                                 </p>
                             </div>
-                            <p class="fw-bold">$<span id="itemPriceTwo">1500</span></p>
+                            <p class="fw-bold">$<span id="itemPriceTwo">1000</span></p>
 
                             <p class="cross-btn" style="cursor: pointer;"><i class="fa-solid fa-xmark fs-2 text-danger"></i></p>
                         </div>
@@ -72,15 +72,15 @@
             <div class="box w-75 mx-auto bg-light rounded-2">
                 <div class="d-flex justify-content-between">
                     <p class="ms-5 fs-5 fw-bold">Subtotal:</p>
-                    <p class="me-5 fs-5 fw-bold">$ <span id="subTotal">2798</span></p>
+                    <p class="me-5 fs-5 fw-bold">$ <span id="subTotal"></span></p>
                 </div>
                 <div class="d-flex justify-content-between">
                     <p class="ms-5 fs-5 fw-bold">Tax:</p>
-                    <p class="me-5 fs-5 fw-bold">$ <span>0</span></p>
+                    <p class="me-5 fs-5 fw-bold">$ <span id="taxField"></span></p>
                 </div>
                 <div class="d-flex justify-content-between">
                     <p class="ms-5 fs-5 fw-bold">Total:</p>
-                    <p class="me-5 fs-5 fw-bold">$ <span>2798</span></p>
+                    <p class="me-5 fs-5 fw-bold">$ <span id="totalPrice"></span></p>
                 </div>
             </div>
         </div>
@@ -91,6 +91,7 @@
             <div class="checkout-container w-75 mx-auto d-flex justify-content-end">
                 <button class="btn btn-success">Check Out</button>
             </div>
+            <p class="mt-5 mb-0 text-center mx-auto">Shopping Cart Item Price Calculation Using <strong>JavaScript</strong></p>
         </div>
     </section>
 
@@ -99,6 +100,7 @@
 
     <script src="js/itemOne.js"></script>
     <script src="js/itemTwo.js"></script>
+    <script src="js/finalAmount.js"></script>
 
 
 
